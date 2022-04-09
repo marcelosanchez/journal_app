@@ -33,7 +33,7 @@ export const JournalEntry = ( { id, date, title, body, url } ) => {
                 <p className='journal__entry-title'>
                     { title }
                 </p>
-                <p className='journal__entry-content'>
+                <p className='journal__entry-content journal__elipsis'>
                     { body }
                 </p>
             </div>

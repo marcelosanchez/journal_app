@@ -51,19 +51,27 @@
 }
 
 .journal__entry-picture {
-    height: 107px;
-    width: 150px;
+    height: auto;
+    width: 115px;
 }
 
 .journal__entry-body {
     padding: 10px;
+    width: 10vw;
 }
 .journal__entry-content {
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 10px;
+}
+.journal__elipsis{
+    display: -webkit-box;
+    max-width: 200px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .journal__entry-title {
-    font-size: 10px;
+    font-size: 14px;
+    font-weight: bold;
 }
 .journal__entry-date-box {
     align-items: center;
